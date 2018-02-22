@@ -13,15 +13,64 @@ body
     animation-play-state: running;
 }
 
-@keyframes flash {
-    from {color: red;}
-    to {color: black;}
-    to{color: blue;}
-    to{color: yellow;}
-    to{color: green;}
-}
+@-webkit-keyframes flash {
+      0% {
+        
+        color: yellow;
+      }
+      
+      10% {
+        
+        color: blue;
+      }
+      
+      20% {
+        
+        color: pink;
+      }
+      
+      30% {
+        
+        color: red;
+      }
+      
+      40% {
+        
+        color: ;
+      }
+      
+      50% {
+        
+        color: orange;
+      }
+      
+      60% {
+        
+        color: blue;
+      }
+      
+      70% {
+        
+        color: #2980b9;
+      }
+      80% {
+     
+        color: #f1c40f;
+      }
+      
+      90% {
+     
+        color: #2980b9;
+      }
+      
+      100% {
+        
+        color: pink;
+      }
+    }
 h1
 {
 	font-size: 100px;
 	text-align: center;
+	-webkit-animation:flash 20s infinite alternate;
 }
