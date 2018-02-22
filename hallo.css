@@ -1,0 +1,14 @@
+body
+{
+	font-family: chiller;
+	font-size: 50px;
+	background-color: #0A1123;
+	color: #E3D9CA;
+	text-align: center;
+}
+.line
+{
+	border: solid black 2px;
+	width: 1px;
+	height: 60px;
+}
